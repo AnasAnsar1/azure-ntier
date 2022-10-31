@@ -6,8 +6,8 @@ variable "rsg_details" {
 }
 
 variable "subnets_details" {
-  type = object ({
-    names = list(string)
+  type = object({
+    names            = list(string)
     address_prefixes = list(string)
   })
 }
